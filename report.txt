@@ -1,0 +1,29 @@
+Using 63.6GiB of RAM
+Computation to 1000000000 digits, formula=Chudnovsky
+Output file=pi.txt, format=txt, binary result size=415MB
+Binary Splitting
+Depth=27
+  mem   max  disk   max operation                       compl lv
+4.62G 4.62G     0     0 completed                      100.0%  0
+  time = 668.864 s
+Compute P, Q
+2.90G 4.62G     0     0 completed
+  time = 6.612 s
+Division
+5.29G 5.29G     0     0 completed
+  time = 45.007 s
+Sqrt
+4.46G 5.29G     0     0 completed
+  time = 30.245 s
+Final multiplication
+8.63G 8.63G     0     0 completed
+  time = 22.387 s
+Total time (binary result) = 773.146 s
+Base conversion
+4.63G 8.63G     0     0 completed
+  time = 96.430 s
+Base conversion check
+6.88G 8.63G     0     0 completed
+  time = 22.035 s
+Total time (base 10 result) = 891.613 s
+Writing result to 'pi.txt'
